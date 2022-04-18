@@ -8,8 +8,13 @@
 
 
 // 2. ES6 syntax which provides the same functionality of the above javascript code
+
+const name ="Zaman";
+const displayMessage = () => {
+    return 'Function';
+}
 const Hello = () => {
-    return  <h1>Hello World Component- es6!</h1>
+    return  <h1>Hello- {displayMessage() } </h1>
 }
 
 
