@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
 
-      <Profile name="Zaman" />
+      <Profile name="Zaman" lname="Rahimi" />
 
     </div>
   );
