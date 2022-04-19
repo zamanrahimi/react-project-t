@@ -1,14 +1,11 @@
 import {useState} from 'react';
 function FunctionalCounter() {
 
-    const [counter, setCounter] = useState(0);
-    const increament = () =>{
-        setCounter(counter + 1);
-    };
-
+    const [color,setColor] = useState(0);
+    
     return (<div>
-        <h3> counter {counter} </h3> 
-        <button onClick={increament}>Click</button>
+        <h3> My color is:  {color} </h3> 
+        <button onClick={()=>setColor(color + 1)}>Click</button>
         </div>);
 
 }
