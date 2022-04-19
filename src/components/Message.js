@@ -8,7 +8,7 @@ class Message extends React.Component
 {
 
     render(){
-        return <h1>Hello from class component!</h1>
+        return <h1>Message: {this.props.msg}</h1>
     }
 
 }

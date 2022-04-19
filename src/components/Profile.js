@@ -1,9 +1,7 @@
 
 function Profile(props){
 
-    return (<h1> Hello - {props.name} {props.lname}
-            {props.children}
-    </h1>);
+    return (<h1>{this.props.msg}</h1>);
     
     
 }
