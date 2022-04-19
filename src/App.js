@@ -9,13 +9,13 @@ import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalCOmponet from './components/ConditionalComponent';
-
+import Products from './components/Products';
 function App() {
   return (
     <div className="App">
 
 
-      <ConditionalCOmponet> </ConditionalCOmponet>
+      <Products> </Products>
       
 
     </div>
