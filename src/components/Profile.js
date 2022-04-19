@@ -1,7 +1,9 @@
 
 function Profile(props){
 
-    return (<h1>{this.props.msg}</h1>);
+    const {name,lname} = props;
+
+    return (<h1>{name} - {lname}</h1>);
     
     
 }

@@ -10,7 +10,7 @@ function App() {
     <div className="App">
 
 
-      <Counter> </Counter>
+      <Profile name="Zaman" lname="Rahimi"></Profile>
       
 
     </div>
