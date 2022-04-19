@@ -8,8 +8,11 @@ class Counter extends Component{
         this.state={
             counter:0,
         }
+        // First way: this this
+        this.increament = this.increament.bind(this);
     }
-    increament(){
+    // second way is to change the method to an arrow function
+    increament = () => {
         this.setState({
             counter: this.state.counter + 1,
         });
@@ -18,7 +21,7 @@ class Counter extends Component{
         return (
             <div>
                 <h1>Counter: {this.state.counter}</h1>
-                <button onClick={() => this.increament()} >Click</button>
+                <button onClick={this.increament} >Click</button>
             </div>
         );
     }
